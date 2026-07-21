@@ -4,7 +4,6 @@ import { Mail, ArrowRight, CheckCircle2 } from 'lucide-react';
 import logo from './assets/logo.jpeg';
 import './App.css';
 
-
 function App() {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
